@@ -1,0 +1,65 @@
+#logo_image{
+    border-radius: 50%;
+    height: 140;
+}
+
+#h1{
+    color: lightgray;
+    font-size: 40px;
+    margin: 0px;
+}
+
+#room_name{
+    width: 250px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 25px;
+    padding-left: 8;
+    font-size: 16px;
+}
+
+#add_room{
+    height: 28px;
+    width: 250px;
+    background-color: rgb(129, 69, 224);
+    color: lightgray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+#room_div{
+    background-color: rgb(204, 176, 255);
+    width: 500;
+    height: 300;
+    padding-top: 20px;
+    border-radius: 10%;
+}
+
+body{
+    background-color: rgb(129, 69, 224);
+}
+
+#logout_button{
+    color: white;
+    background-color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 30px;
+    width: 80px;
+    font-size: 18;
+    float: right;
+}
+
+#trending_rooms{
+    background-color: rgb(204, 176, 255);
+    width: 500;
+    padding-top: 20px;
+    border-radius: 10%;
+}
+
+#trending_heading{
+    color: lightgray;
+}
+
+#name{
+    color: rgb(129, 69, 224);
+
+}

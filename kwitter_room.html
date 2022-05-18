@@ -1,0 +1,25 @@
+<html>
+    <head><title>LetsChat💬</title>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+        <link rel = "stylesheet" href = "kwitter_room.css"></head>
+        <body>
+            <button id = "logout_button" class = "glyphicon glyphicon-log-out btn btn-danger" onclick = "logout()" type = "button">Logout</button>
+            <center>
+                <br><h1 id = "h1">LetsChat💬</h1><br>
+                <div id = "room_div"><br>
+                    <h2 id = "name"></h3>
+                    <image id = "logo_image" src = "LetsChat.png"></image><br>
+                
+                <input class = "form-control" id = "room_name" placeholder = "Enter room name here"  type = "text"><br><br>
+                <button id = "add_room" class="form-control" type = "button" onclick = "add_room()">Add Room</button>
+
+            </div>
+            <br>
+            <h3 id = "trending_heading" class ="color_white">Trending Rooms</h3>
+            <div id = "trending_rooms"></div>
+            </center>
+            <script src = "kwitter_room.js"></script>
+        </body>
+</html>

@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(129, 69, 224);
+}
+
+#login_div{
+    background-color: rgb(204, 176, 255);
+    width: 500;
+    height: 430;
+    padding-top: 20px;
+    border-radius: 10%;
+}
+
+#logo_image{
+    border-radius: 50%;
+    height: 140;
+}
+
+#h1{
+    color: lightgray;
+    font-size: 45px;
+}
+
+#h2{
+    color: rgb(129, 69, 224);
+    font-size:28px;
+}
+
+#h3{
+    color: rgb(129, 69, 224);
+    font-size: 20px;
+}
+
+#h4{
+    color: rgb(129, 69, 224);
+    font-size: 20px;
+}
+
+#login_input{
+    width: 250px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 25px;
+    padding-left: 8;
+    font-size: 16px;
+}
+
+#login_button{
+    height: 25px;
+    width: 250px;
+    background-color: rgb(129, 69, 224);
+    color: lightgray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+#logo_image_2{
+    height: 80px;
+    border-radius: 50%;
+}
